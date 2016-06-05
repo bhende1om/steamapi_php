@@ -1,6 +1,6 @@
 <?php
 $config = array(
-  "api_key" => "DD5A34C764F215A0B238A3CF3D6F8FB2",
+  "api_key" => "Steam API",
 );
 $steamid = $_GET['id'];
 $url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=" . $config['api_key'] . "&steamids=$steamid";
